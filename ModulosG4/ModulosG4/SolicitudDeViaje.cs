@@ -19,7 +19,7 @@ namespace ModulosG4
             this.fechaSalida = fechaSalida;
         }
         public override String ToString() {
-            return ciSolicitante+","+nombreSolicitante + "," +destino + "," +conductor ",";
+            return ciSolicitante+","+nombreSolicitante + "," +destino + "," +conductor + ",";
         }
         
     }
