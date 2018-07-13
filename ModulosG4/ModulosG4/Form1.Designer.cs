@@ -38,10 +38,10 @@
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.tcedula = new System.Windows.Forms.TextBox();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.tnombreSolicitante = new System.Windows.Forms.TextBox();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
             this.label3 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
@@ -179,7 +179,7 @@
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel2.Controls.Add(this.label1, 0, 0);
-            this.tableLayoutPanel2.Controls.Add(this.textBox1, 1, 0);
+            this.tableLayoutPanel2.Controls.Add(this.tcedula, 1, 0);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel2.Location = new System.Drawing.Point(5, 69);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
@@ -197,13 +197,15 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Cédula del Solicitante:";
             // 
-            // textBox1
+            // tcedula
             // 
-            this.textBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox1.Location = new System.Drawing.Point(288, 3);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(279, 24);
-            this.textBox1.TabIndex = 1;
+            this.tcedula.AccessibleDescription = "tcedula";
+            this.tcedula.AccessibleName = "tcedula";
+            this.tcedula.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tcedula.Location = new System.Drawing.Point(288, 3);
+            this.tcedula.Name = "tcedula";
+            this.tcedula.Size = new System.Drawing.Size(279, 24);
+            this.tcedula.TabIndex = 1;
             // 
             // tableLayoutPanel3
             // 
@@ -211,7 +213,7 @@
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel3.Controls.Add(this.label2, 0, 0);
-            this.tableLayoutPanel3.Controls.Add(this.textBox2, 1, 0);
+            this.tableLayoutPanel3.Controls.Add(this.tnombreSolicitante, 1, 0);
             this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel3.Location = new System.Drawing.Point(5, 113);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
@@ -229,13 +231,13 @@
             this.label2.TabIndex = 0;
             this.label2.Text = "Nombre Completo del Solicitante:";
             // 
-            // textBox2
+            // tnombreSolicitante
             // 
-            this.textBox2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox2.Location = new System.Drawing.Point(288, 3);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(279, 24);
-            this.textBox2.TabIndex = 1;
+            this.tnombreSolicitante.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tnombreSolicitante.Location = new System.Drawing.Point(288, 3);
+            this.tnombreSolicitante.Name = "tnombreSolicitante";
+            this.tnombreSolicitante.Size = new System.Drawing.Size(279, 24);
+            this.tnombreSolicitante.TabIndex = 1;
             // 
             // tableLayoutPanel4
             // 
@@ -413,6 +415,7 @@
             this.buttonGuardar.Text = "Guardar";
             this.buttonGuardar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.buttonGuardar.UseVisualStyleBackColor = true;
+            this.buttonGuardar.Click += new System.EventHandler(this.buttonGuardar_Click);
             // 
             // groupBox2
             // 
@@ -482,8 +485,8 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel7;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox tcedula;
+        private System.Windows.Forms.TextBox tnombreSolicitante;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.Label label7;
