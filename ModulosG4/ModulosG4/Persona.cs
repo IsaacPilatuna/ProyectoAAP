@@ -17,6 +17,9 @@ namespace ModulosG4
             return nombres + " " + apellidos;
         }
 
+        public override String ToString() {
+            return numeroDeCedula + "," + nombres + "," + apellidos;
+        }
 
     }
 }
