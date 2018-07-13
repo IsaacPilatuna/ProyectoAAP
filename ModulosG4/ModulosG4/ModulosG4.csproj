@@ -64,6 +64,7 @@
     <Compile Include="FrmCalificacionServicio.Designer.cs">
       <DependentUpon>FrmCalificacionServicio.cs</DependentUpon>
     </Compile>
+    <Compile Include="LeerArchivo.cs" />
     <Compile Include="Persona.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

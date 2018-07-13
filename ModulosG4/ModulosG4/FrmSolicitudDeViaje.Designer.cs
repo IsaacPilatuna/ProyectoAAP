@@ -34,31 +34,31 @@
             this.tableLayoutPanel6 = new System.Windows.Forms.TableLayoutPanel();
             this.label5 = new System.Windows.Forms.Label();
             this.tableLayoutPanel10 = new System.Windows.Forms.TableLayoutPanel();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.dth_llegada = new System.Windows.Forms.DateTimePicker();
+            this.dtf_llegada = new System.Windows.Forms.DateTimePicker();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txt_ciSolicitante = new System.Windows.Forms.TextBox();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txt_nombreSolicitante = new System.Windows.Forms.TextBox();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
             this.label3 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cb_destino = new System.Windows.Forms.ComboBox();
             this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
             this.label4 = new System.Windows.Forms.Label();
             this.tableLayoutPanel9 = new System.Windows.Forms.TableLayoutPanel();
-            this.dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePickerSalida = new System.Windows.Forms.DateTimePicker();
+            this.dth_salida = new System.Windows.Forms.DateTimePicker();
+            this.dtf_salida = new System.Windows.Forms.DateTimePicker();
             this.tableLayoutPanel7 = new System.Windows.Forms.TableLayoutPanel();
             this.label6 = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.cb_conductor = new System.Windows.Forms.ComboBox();
             this.label7 = new System.Windows.Forms.Label();
             this.tableLayoutPanel8 = new System.Windows.Forms.TableLayoutPanel();
             this.buttonCancelar = new System.Windows.Forms.Button();
             this.buttonGuardar = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.txt_motivo = new System.Windows.Forms.RichTextBox();
             this.groupBox1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel6.SuspendLayout();
@@ -144,8 +144,8 @@
             this.tableLayoutPanel10.ColumnCount = 2;
             this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel10.Controls.Add(this.dateTimePicker2, 0, 0);
-            this.tableLayoutPanel10.Controls.Add(this.dateTimePicker1, 0, 0);
+            this.tableLayoutPanel10.Controls.Add(this.dth_llegada, 0, 0);
+            this.tableLayoutPanel10.Controls.Add(this.dtf_llegada, 0, 0);
             this.tableLayoutPanel10.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel10.Location = new System.Drawing.Point(288, 3);
             this.tableLayoutPanel10.Name = "tableLayoutPanel10";
@@ -154,24 +154,24 @@
             this.tableLayoutPanel10.Size = new System.Drawing.Size(279, 30);
             this.tableLayoutPanel10.TabIndex = 1;
             // 
-            // dateTimePicker2
+            // dth_llegada
             // 
-            this.dateTimePicker2.AccessibleRole = System.Windows.Forms.AccessibleRole.Clock;
-            this.dateTimePicker2.CustomFormat = "hh:mm";
-            this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePicker2.Location = new System.Drawing.Point(142, 3);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.ShowUpDown = true;
-            this.dateTimePicker2.Size = new System.Drawing.Size(134, 24);
-            this.dateTimePicker2.TabIndex = 2;
+            this.dth_llegada.AccessibleRole = System.Windows.Forms.AccessibleRole.Clock;
+            this.dth_llegada.CustomFormat = "hh:mm";
+            this.dth_llegada.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dth_llegada.Location = new System.Drawing.Point(142, 3);
+            this.dth_llegada.Name = "dth_llegada";
+            this.dth_llegada.ShowUpDown = true;
+            this.dth_llegada.Size = new System.Drawing.Size(134, 24);
+            this.dth_llegada.TabIndex = 2;
             // 
-            // dateTimePicker1
+            // dtf_llegada
             // 
-            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker1.Location = new System.Drawing.Point(3, 3);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(133, 24);
-            this.dateTimePicker1.TabIndex = 1;
+            this.dtf_llegada.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtf_llegada.Location = new System.Drawing.Point(3, 3);
+            this.dtf_llegada.Name = "dtf_llegada";
+            this.dtf_llegada.Size = new System.Drawing.Size(133, 24);
+            this.dtf_llegada.TabIndex = 1;
             // 
             // tableLayoutPanel2
             // 
@@ -179,7 +179,7 @@
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel2.Controls.Add(this.label1, 0, 0);
-            this.tableLayoutPanel2.Controls.Add(this.textBox1, 1, 0);
+            this.tableLayoutPanel2.Controls.Add(this.txt_ciSolicitante, 1, 0);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel2.Location = new System.Drawing.Point(5, 69);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
@@ -197,13 +197,13 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Cédula del Solicitante:";
             // 
-            // textBox1
+            // txt_ciSolicitante
             // 
-            this.textBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox1.Location = new System.Drawing.Point(288, 3);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(279, 24);
-            this.textBox1.TabIndex = 1;
+            this.txt_ciSolicitante.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.txt_ciSolicitante.Location = new System.Drawing.Point(288, 3);
+            this.txt_ciSolicitante.Name = "txt_ciSolicitante";
+            this.txt_ciSolicitante.Size = new System.Drawing.Size(279, 24);
+            this.txt_ciSolicitante.TabIndex = 1;
             // 
             // tableLayoutPanel3
             // 
@@ -211,7 +211,7 @@
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel3.Controls.Add(this.label2, 0, 0);
-            this.tableLayoutPanel3.Controls.Add(this.textBox2, 1, 0);
+            this.tableLayoutPanel3.Controls.Add(this.txt_nombreSolicitante, 1, 0);
             this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel3.Location = new System.Drawing.Point(5, 113);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
@@ -229,13 +229,13 @@
             this.label2.TabIndex = 0;
             this.label2.Text = "Nombre Completo del Solicitante:";
             // 
-            // textBox2
+            // txt_nombreSolicitante
             // 
-            this.textBox2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox2.Location = new System.Drawing.Point(288, 3);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(279, 24);
-            this.textBox2.TabIndex = 1;
+            this.txt_nombreSolicitante.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.txt_nombreSolicitante.Location = new System.Drawing.Point(288, 3);
+            this.txt_nombreSolicitante.Name = "txt_nombreSolicitante";
+            this.txt_nombreSolicitante.Size = new System.Drawing.Size(279, 24);
+            this.txt_nombreSolicitante.TabIndex = 1;
             // 
             // tableLayoutPanel4
             // 
@@ -243,7 +243,7 @@
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel4.Controls.Add(this.label3, 0, 0);
-            this.tableLayoutPanel4.Controls.Add(this.comboBox1, 1, 0);
+            this.tableLayoutPanel4.Controls.Add(this.cb_destino, 1, 0);
             this.tableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel4.Location = new System.Drawing.Point(5, 157);
             this.tableLayoutPanel4.Name = "tableLayoutPanel4";
@@ -261,20 +261,20 @@
             this.label3.TabIndex = 0;
             this.label3.Text = "Destino:";
             // 
-            // comboBox1
+            // cb_destino
             // 
-            this.comboBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.cb_destino.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.cb_destino.FormattingEnabled = true;
+            this.cb_destino.Items.AddRange(new object[] {
             "Latacunga",
             "Cuenca",
             "Loja",
             "Manta",
             "Guayaquil"});
-            this.comboBox1.Location = new System.Drawing.Point(288, 3);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(279, 26);
-            this.comboBox1.TabIndex = 1;
+            this.cb_destino.Location = new System.Drawing.Point(288, 3);
+            this.cb_destino.Name = "cb_destino";
+            this.cb_destino.Size = new System.Drawing.Size(279, 26);
+            this.cb_destino.TabIndex = 1;
             // 
             // tableLayoutPanel5
             // 
@@ -305,8 +305,8 @@
             this.tableLayoutPanel9.ColumnCount = 2;
             this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel9.Controls.Add(this.dateTimePicker3, 1, 0);
-            this.tableLayoutPanel9.Controls.Add(this.dateTimePickerSalida, 0, 0);
+            this.tableLayoutPanel9.Controls.Add(this.dth_salida, 1, 0);
+            this.tableLayoutPanel9.Controls.Add(this.dtf_salida, 0, 0);
             this.tableLayoutPanel9.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel9.Location = new System.Drawing.Point(288, 3);
             this.tableLayoutPanel9.Name = "tableLayoutPanel9";
@@ -315,23 +315,25 @@
             this.tableLayoutPanel9.Size = new System.Drawing.Size(279, 30);
             this.tableLayoutPanel9.TabIndex = 1;
             // 
-            // dateTimePicker3
+            // dth_salida
             // 
-            this.dateTimePicker3.CustomFormat = "hh:mm";
-            this.dateTimePicker3.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePicker3.Location = new System.Drawing.Point(142, 3);
-            this.dateTimePicker3.Name = "dateTimePicker3";
-            this.dateTimePicker3.ShowUpDown = true;
-            this.dateTimePicker3.Size = new System.Drawing.Size(134, 24);
-            this.dateTimePicker3.TabIndex = 1;
+            this.dth_salida.CustomFormat = "hh:mm";
+            this.dth_salida.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dth_salida.Location = new System.Drawing.Point(142, 3);
+            this.dth_salida.Name = "dth_salida";
+            this.dth_salida.ShowUpDown = true;
+            this.dth_salida.Size = new System.Drawing.Size(134, 24);
+            this.dth_salida.TabIndex = 1;
             // 
-            // dateTimePickerSalida
+            // dtf_salida
             // 
-            this.dateTimePickerSalida.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePickerSalida.Location = new System.Drawing.Point(3, 3);
-            this.dateTimePickerSalida.Name = "dateTimePickerSalida";
-            this.dateTimePickerSalida.Size = new System.Drawing.Size(133, 24);
-            this.dateTimePickerSalida.TabIndex = 0;
+            this.dtf_salida.AllowDrop = true;
+            this.dtf_salida.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtf_salida.Location = new System.Drawing.Point(3, 3);
+            this.dtf_salida.Name = "dtf_salida";
+            this.dtf_salida.Size = new System.Drawing.Size(133, 24);
+            this.dtf_salida.TabIndex = 0;
+            this.dtf_salida.ValueChanged += new System.EventHandler(this.dtf_salida_ValueChanged);
             // 
             // tableLayoutPanel7
             // 
@@ -339,7 +341,7 @@
             this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel7.Controls.Add(this.label6, 0, 0);
-            this.tableLayoutPanel7.Controls.Add(this.comboBox2, 1, 0);
+            this.tableLayoutPanel7.Controls.Add(this.cb_conductor, 1, 0);
             this.tableLayoutPanel7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel7.Location = new System.Drawing.Point(5, 201);
             this.tableLayoutPanel7.Name = "tableLayoutPanel7";
@@ -357,19 +359,19 @@
             this.label6.TabIndex = 0;
             this.label6.Text = "Conductor:";
             // 
-            // comboBox2
+            // cb_conductor
             // 
-            this.comboBox2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
+            this.cb_conductor.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.cb_conductor.FormattingEnabled = true;
+            this.cb_conductor.Items.AddRange(new object[] {
             "José Perez",
             "María Guerrero",
             "Albus Dumbledore",
             "Dolores Umbridge"});
-            this.comboBox2.Location = new System.Drawing.Point(288, 3);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(279, 26);
-            this.comboBox2.TabIndex = 1;
+            this.cb_conductor.Location = new System.Drawing.Point(288, 3);
+            this.cb_conductor.Name = "cb_conductor";
+            this.cb_conductor.Size = new System.Drawing.Size(279, 26);
+            this.cb_conductor.TabIndex = 1;
             // 
             // label7
             // 
@@ -424,10 +426,11 @@
             this.buttonGuardar.Text = "Guardar";
             this.buttonGuardar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.buttonGuardar.UseVisualStyleBackColor = true;
+            this.buttonGuardar.Click += new System.EventHandler(this.buttonGuardar_Click);
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.richTextBox1);
+            this.groupBox2.Controls.Add(this.txt_motivo);
             this.groupBox2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox2.Location = new System.Drawing.Point(5, 333);
             this.groupBox2.Name = "groupBox2";
@@ -436,14 +439,14 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Motivo del Viaje";
             // 
-            // richTextBox1
+            // txt_motivo
             // 
-            this.richTextBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.richTextBox1.Location = new System.Drawing.Point(3, 20);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(564, 60);
-            this.richTextBox1.TabIndex = 0;
-            this.richTextBox1.Text = "";
+            this.txt_motivo.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.txt_motivo.Location = new System.Drawing.Point(3, 20);
+            this.txt_motivo.Name = "txt_motivo";
+            this.txt_motivo.Size = new System.Drawing.Size(564, 60);
+            this.txt_motivo.TabIndex = 0;
+            this.txt_motivo.Text = "";
             // 
             // FrmSolicitudDeViaje
             // 
@@ -493,22 +496,22 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel7;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.TextBox txt_ciSolicitante;
+        private System.Windows.Forms.TextBox txt_nombreSolicitante;
+        private System.Windows.Forms.ComboBox cb_destino;
+        private System.Windows.Forms.ComboBox cb_conductor;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel8;
         private System.Windows.Forms.Button buttonCancelar;
         private System.Windows.Forms.Button buttonGuardar;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel10;
-        private System.Windows.Forms.DateTimePicker dateTimePicker2;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker dth_llegada;
+        private System.Windows.Forms.DateTimePicker dtf_llegada;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel9;
-        private System.Windows.Forms.DateTimePicker dateTimePicker3;
-        private System.Windows.Forms.DateTimePicker dateTimePickerSalida;
+        private System.Windows.Forms.DateTimePicker dth_salida;
+        private System.Windows.Forms.DateTimePicker dtf_salida;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.RichTextBox txt_motivo;
     }
 }
 
