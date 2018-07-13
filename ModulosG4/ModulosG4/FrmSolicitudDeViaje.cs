@@ -12,9 +12,12 @@ namespace ModulosG4
 {
     public partial class FrmSolicitudDeViaje : Form
     {
+       
         public FrmSolicitudDeViaje()
         {
             InitializeComponent();
+         
         }
-    }
+
+     }
 }

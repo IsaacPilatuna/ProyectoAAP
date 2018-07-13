@@ -13,15 +13,15 @@ namespace ModulosG4
         public EscribirArchivo() { }
 
 
-        public void escribirPersona(HashSet<Persona> personas)
+        public void escribirPersona(HashSet<SolicitudDeViaje> viajes)
         {
 
             try
             {
                 StreamWriter sw = new StreamWriter(@"C:\Users\Cristian Betancourt\source\repos\ProyectoAAP\ModulosG4\ModulosG4\Archivos\Persona.txt");
-                foreach (Persona persona in personas)
+                foreach (SolicitudDeViaje viaje in viajes)
                 {
-                    sw.WriteLine(persona.ToString());
+                    sw.WriteLine(viajes.ToString());
 
                 }
 

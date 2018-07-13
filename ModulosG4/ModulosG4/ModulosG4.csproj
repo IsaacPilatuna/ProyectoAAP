@@ -67,7 +67,7 @@
     <Compile Include="Persona.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Viaje.cs" />
+    <Compile Include="SolicitudDeViaje.cs" />
     <EmbeddedResource Include="FrmSolicitudDeViaje.resx">
       <DependentUpon>FrmSolicitudDeViaje.cs</DependentUpon>
     </EmbeddedResource>
