@@ -45,6 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EscribirArchivo.cs" />
     <Compile Include="FrmSolicitudDeViaje.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -97,6 +98,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="archivos\Viaje.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
