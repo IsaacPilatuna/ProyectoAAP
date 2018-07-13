@@ -12,13 +12,13 @@ namespace ModulosG4
 {
     public partial class FrmSolicitudDeViaje : Form
     {
-        private EscribirArchivo esc_Archivo;
-
+        private EscribirArchivo esc_archivo;
+        
         private SolicitudDeViaje viaje;
         public FrmSolicitudDeViaje()
         {
             InitializeComponent();
-            esc_Archivo = new EscribirArchivo();
+            esc_archivo = new EscribirArchivo();
         }
 
         public void obtenerDatos()
@@ -36,7 +36,7 @@ namespace ModulosG4
         private void buttonGuardar_Click(object sender, EventArgs e)
         {
             obtenerDatos();
-            esc_Archivo.escribirViaje(viaje);
+            esc_archivo.escribirViaje(viaje);
         }
     }
 }
