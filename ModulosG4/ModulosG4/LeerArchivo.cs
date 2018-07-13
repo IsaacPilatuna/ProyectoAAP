@@ -13,7 +13,7 @@ namespace ModulosG4
         public HashSet<Persona> leerPersona() {
             string[] datos;
             HashSet<Persona> personas = new HashSet<Persona>();
-            persona =  = new Persona();
+            persona = new Persona();
             string linea = "";
 
             StreamReader objReader = new StreamReader(@"C:\Users\Cristian Betancourt\source\repos\ProyectoAAP\ModulosG4\ModulosG4\Archivos\Persona.txt");
