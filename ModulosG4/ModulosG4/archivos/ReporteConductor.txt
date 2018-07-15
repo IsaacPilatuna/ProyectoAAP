@@ -1,0 +1,6 @@
+
+
+
+12345678,Orlando F,NO,False,123.4,50
+
+00987643,Washington Y,Si,False,50,75

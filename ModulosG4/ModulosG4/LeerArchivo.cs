@@ -9,12 +9,11 @@ namespace ModulosG4
 {
     class LeerArchivo
     {
-        Persona persona;
-        public String leerViaje()
+        public String leerViaje(String archivo)
         {
-            string viajes = "";
+            string datos = "\n";
             string linea = "";
-            StreamReader objReader = new StreamReader(@"C:\Users\Cristian Betancourt\source\repos\ProyectoAAP\ModulosG4\ModulosG4\Archivos\Viaje.txt");
+            StreamReader objReader = new StreamReader(@"C:\Users\Cristian Betancourt\source\repos\ProyectoAAP\ModulosG4\ModulosG4\Archivos\"+archivo+".txt");
 
             while (linea != null)
             {
@@ -23,7 +22,7 @@ namespace ModulosG4
                 {
                     if (linea != null)
                     {
-                        viajes += linea;
+                        datos += (linea+"\n");
                     }
                 }
                 catch (Exception e)
@@ -32,7 +31,7 @@ namespace ModulosG4
                 }
             }
             objReader.Close();
-            return viajes;
+            return datos;
 
         }
     }

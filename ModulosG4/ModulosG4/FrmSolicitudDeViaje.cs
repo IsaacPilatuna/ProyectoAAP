@@ -23,7 +23,7 @@ namespace ModulosG4
 
         public void obtenerDatos()
         {
-            viaje = new SolicitudDeViaje(txt_ciSolicitante.Text, txt_nombreSolicitante.Text, cb_destino.SelectedText, cb_conductor.SelectedText, dtf_salida.Value.ToString("MM/dd/yyyy"), dth_salida.Value.ToString("hh/mm/ss"), dtf_llegada.Value.ToString("MM/dd/yyyy"), dth_llegada.Value.ToString("hh:mm:ss"), txt_motivo.Text);
+            viaje = new SolicitudDeViaje(txt_ciSolicitante.Text, txt_nombreSolicitante.Text,(String)cb_destino.SelectedItem, (String)cb_conductor.SelectedItem, dtf_salida.Value.ToString("MM/dd/yyyy"), dth_salida.Value.ToString("hh/mm/ss"), dtf_llegada.Value.ToString("MM/dd/yyyy"), dth_llegada.Value.ToString("hh:mm:ss"), txt_motivo.Text);
 
         }
 
