@@ -16,7 +16,7 @@ namespace ModulosG4
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmSolicitudDeViaje());
+            Application.Run(new FrmReporteEstadistico());
             Persona p = new Persona();
             
         }
