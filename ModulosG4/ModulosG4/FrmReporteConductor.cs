@@ -71,5 +71,10 @@ namespace ModulosG4
         {
 
         }
+
+        private void tableLayoutPanel5_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

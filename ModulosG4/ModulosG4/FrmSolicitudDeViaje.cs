@@ -38,5 +38,15 @@ namespace ModulosG4
             obtenerDatos();
             esc_archivo.escribirViaje(viaje);
         }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
