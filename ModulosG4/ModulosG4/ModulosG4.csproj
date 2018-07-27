@@ -64,12 +64,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataSetKilometraje.cs">
+      <DependentUpon>DataSetKilometraje.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetKilometraje.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetKilometraje.xsd</DependentUpon>
+    </Compile>
     <Compile Include="DataSetViajes.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>DataSetViajes.xsd</DependentUpon>
     </Compile>
     <Compile Include="EscribirArchivo.cs" />
+    <Compile Include="FrmHistorialKilometraje.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmHistorialKilometraje.Designer.cs">
+      <DependentUpon>FrmHistorialKilometraje.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmReporteEstadistico.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -100,6 +114,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SolicitudDeViaje.cs" />
     <Compile Include="SqlServerTypes\Loader.cs" />
+    <EmbeddedResource Include="FrmHistorialKilometraje.resx">
+      <DependentUpon>FrmHistorialKilometraje.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmReporteEstadistico.resx">
       <DependentUpon>FrmReporteEstadistico.cs</DependentUpon>
     </EmbeddedResource>
@@ -122,6 +139,18 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Report1.rdlc" />
+    <EmbeddedResource Include="ReportKilometraje.rdlc" />
+    <None Include="DataSetKilometraje.xsc">
+      <DependentUpon>DataSetKilometraje.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetKilometraje.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetKilometraje.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSetKilometraje.xss">
+      <DependentUpon>DataSetKilometraje.xsd</DependentUpon>
+    </None>
     <None Include="DataSetViajes.xsc">
       <DependentUpon>DataSetViajes.xsd</DependentUpon>
     </None>

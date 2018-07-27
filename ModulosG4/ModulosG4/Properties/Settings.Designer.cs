@@ -32,5 +32,15 @@ namespace ModulosG4.Properties {
                 return ((string)(this["ModulosG4ConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=.;Initial Catalog=sistemaAAP;Integrated Security=True")]
+        public string sistemaAAPConnectionString {
+            get {
+                return ((string)(this["sistemaAAPConnectionString"]));
+            }
+        }
     }
 }
